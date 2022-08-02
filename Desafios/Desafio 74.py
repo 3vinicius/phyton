@@ -1,0 +1,11 @@
+import random
+n1 = float(random.random())
+n2 = float(random.random())
+n3 = float(random.random())
+n4 = float(random.random())
+n5 = float(random.random())
+list = (f'{n1:.2f}', f'{n2:.2f}', f'{n3:.2f}' ,f'{n4:.2f}', f'{n5:.2f}')
+print(list)
+ordem = sorted(list)
+print(ordem[4],' É o maior')
+print(ordem[0], 'É o menor')

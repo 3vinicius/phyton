@@ -1,0 +1,2 @@
+# phyton
+ Exercicios de phyton

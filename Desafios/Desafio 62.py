@@ -1,0 +1,13 @@
+termo1 = int(input('Digite o primeiro termo'))
+r = int(input('Digite a razão'))
+perg = 1
+termos = 1
+valor = termo1
+q = 10 + perg
+while perg != 0:
+    while termos != q:
+        termos += 1
+        print(valor, end= ',')
+        valor = valor + r
+    perg = int(input('\nDigite se quer ver mais alguns termos'))
+    q = q + perg
